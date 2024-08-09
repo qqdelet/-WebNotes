@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="set.css">
+    <script src="eel.js"></script>
+    <script src="scriptnotes.js"></script>
+</head>
+<body>
+    <div id="notesContainer"></div>
+    
+    <div id="noteForm">
+        <input type="text" id="title" placeholder="Заголовок">
+        <textarea id="content" placeholder="Текст заметки"></textarea>
+        <input type="file" id="image" accept="image/*">
+        <button onclick="saveNote()">Сохранить</button>
+    </div>
+</body>
+</html>
